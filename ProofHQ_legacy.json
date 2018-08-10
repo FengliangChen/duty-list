@@ -1,0 +1,16 @@
+{
+	"version": "1.3.12.20180809",
+	"createdAt": "2018-08-10",
+	"rules": [
+	{
+	"description": "ProofHQ legacy version",
+	"origin": "^https://benchmark.proofhq.com/proof/(\w+)#proof:\w+,.+",
+	"methods": [],
+	"types": [
+	"main_frame"
+	],
+	"target": "https://benchmark.proofhq.com/proof/$1\?pv2=true",
+	"enable": true
+	}
+	]
+}
