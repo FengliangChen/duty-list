@@ -20,6 +20,16 @@
       "target": "https://benchmark.proofhq.com/proof/$1\\?pv2=true",
       "example": "",
       "enable": true
+    },
+    {
+      "description": "PHQ comments",
+      "origin": "^https://benchmark.proofhq.com/proof/(\\w+)/comment/.+",
+      "exclude": "",
+      "methods": [],
+      "types": [],
+      "target": "https://benchmark.proofhq.com/proof/$1\\?pv2=true",
+      "example": "",
+      "enable": true
     }
   ]
 }
