@@ -7,7 +7,7 @@
       "exclude": "",
       "methods": [],
       "types": [],
-      "target": "https://benchmark.proofhq.com/proof/$1\\?pv2=true",
+      "target": "https://benchmark.proofhq.com/proof/$1?pv2=true",
       "example": "",
       "enable": true
     },
@@ -17,7 +17,7 @@
       "exclude": "",
       "methods": [],
       "types": [],
-      "target": "https://benchmark.proofhq.com/proof/$1\\?pv2=true",
+      "target": "https://benchmark.proofhq.com/proof/$1?pv2=true",
       "example": "",
       "enable": true
     },
@@ -27,7 +27,7 @@
       "exclude": "",
       "methods": [],
       "types": [],
-      "target": "https://benchmark.proofhq.com/proof/$1\\?pv2=true",
+      "target": "https://benchmark.proofhq.com/proof/$1?pv2=true",
       "example": "",
       "enable": true
     }
