@@ -3,6 +3,36 @@
   "rules": [
     {
       "description": "PHQ legacy",
+      "origin": "^https://benchmark.proofhq.com/review/(\\w+)#proof:\\w+,.+",
+      "exclude": "",
+      "methods": [],
+      "types": [],
+      "target": "https://benchmark.proofhq.com/review/$1?pv2=true",
+      "example": "",
+      "enable": true
+    },
+    {
+      "description": "PHQ load",
+      "origin": "^https://benchmark.proofhq.com/review/([\\w]{50})$",
+      "exclude": "",
+      "methods": [],
+      "types": [],
+      "target": "https://benchmark.proofhq.com/review/$1?pv2=true",
+      "example": "",
+      "enable": true
+    },
+    {
+      "description": "PHQ comments",
+      "origin": "^https://benchmark.proofhq.com/review/(\\w+)/comment/.+",
+      "exclude": "",
+      "methods": [],
+      "types": [],
+      "target": "https://benchmark.proofhq.com/review/$1?pv2=true",
+      "example": "",
+      "enable": true
+    },
+    {
+      "description": "PHQ legacy",
       "origin": "^https://benchmark.proofhq.com/proof/(\\w+)#proof:\\w+,.+",
       "exclude": "",
       "methods": [],
